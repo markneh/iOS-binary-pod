@@ -25,6 +25,4 @@ spec.source       = { :git => "https://github.com/shuftipro/iOS-binary-pod.git",
   spec.swift_version = "5"
 
 spec.exclude_files = "Classes/Exclude"
-spec.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
-spec.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 end
